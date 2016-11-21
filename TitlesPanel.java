@@ -13,7 +13,7 @@ public class TitlesPanel extends JPanel
 
 /**
 * Конструктор класса TitlesPanel
-* @param _shape отвечает за анимацию
+* @param _shape отвечает за анимацию$
 **/
 
     public TitlesPanel(int _shape)

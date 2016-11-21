@@ -92,7 +92,7 @@ public class ShapeFactory
     }
 
 	/**
-	* Метод определяет размещение фигуры
+	* Метод определяет размещение фигуры$
 	**/
 	
     private static Shape createStar(int arms, Point center, double rOuter, double rInner)

@@ -13,7 +13,7 @@ public class TitlesFrame extends JFrame
     }
 
 /**
-* Метод графического интерфейса пользователя
+* Метод графического интерфейса пользователя$
 **/
 	
     private void initUI()
