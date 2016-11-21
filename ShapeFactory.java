@@ -6,6 +6,22 @@ import java.awt.geom.*;
 public class ShapeFactory
 {
 
+/**
+* ShapeFactory - класс отвечает за тип фигуры
+* @param shape_type
+* switch(shape_type / 10)
+* case 1: фигура шестиугольник
+* case 3: фигура звезда
+* case 5: фигура квадрат
+* case 7: фигура треугольник
+* case 9: фигура круг с вырезаным сектором
+* switch(shape_type % 10)
+* case 1: ширина линии 3рх
+* case 4: ширина линии 7рх
+* case 7: градиент
+* case 8: цвет фигуры
+**/
+
     public ShapeFactory(int shape_type)
     {
         width = 25;
@@ -75,6 +91,10 @@ public class ShapeFactory
         }
     }
 
+	/**
+	* Метод определяет размещение фигуры
+	**/
+	
     private static Shape createStar(int arms, Point center, double rOuter, double rInner)
     {
         double angle = 3.1415926535897931D / (double)arms;

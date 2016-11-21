@@ -11,6 +11,11 @@ public class TitlesPanel extends JPanel
     implements ActionListener
 {
 
+/**
+* Конструктор класса TitlesPanel
+* @param _shape отвечает за анимацию
+**/
+
     public TitlesPanel(int _shape)
     {
         start_angle = 0;
@@ -20,6 +25,11 @@ public class TitlesPanel extends JPanel
         animation.setInitialDelay(50);
         animation.start();
     }
+	
+/**
+* Метод определяет перерисовать фигуру или нет
+* @param arg0 определяющий параметр
+**/
 
     public void actionPerformed(ActionEvent arg0)
     {

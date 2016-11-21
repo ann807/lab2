@@ -4,12 +4,18 @@ import javax.swing.SwingUtilities;
 
 public class TitlesFrame extends JFrame
 {
-
+/**
+* Конструктор класса TitlesFrame
+**/
     public TitlesFrame()
     {
         initUI();
     }
 
+/**
+* Метод графического интерфейса пользователя
+**/
+	
     private void initUI()
     {
         setTitle("\u041A\u0440\u0438\u0432\u044B\u0435 \u0444\u0438\u0433\u0443\u0440\u044B");
@@ -19,6 +25,11 @@ public class TitlesFrame extends JFrame
         setLocationRelativeTo(null);
     }
 
+/**
+* Основной метод приложения
+* @param args указывает на главный класс приложения
+**/
+	
     public static void main(String args[])
     {
         SwingUtilities.invokeLater(new Runnable() {
